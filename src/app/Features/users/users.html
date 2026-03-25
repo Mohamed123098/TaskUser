@@ -1,0 +1,42 @@
+
+<button class="btn-danger cursor-pointer bg-danger p-4 rounded-full m-4" (click)="DeletAll()">Delete All</button>
+<div class="relative overflow-x-auto bg-neutral-primary-soft shadow-xs rounded-base border border-default">
+    <table class="w-full text-sm text-left rtl:text-right text-body">
+        <thead class="bg-neutral-secondary-soft border-b border-default">
+            <tr>
+                <th scope="col" class="px-6 py-3 font-medium">
+                    ID
+                </th>
+                <th scope="col" class="px-6 py-3 font-medium">
+                   Name
+                </th>
+                <th scope="col" class="px-6 py-3 font-medium">
+                    Email
+                </th>
+                <th scope="col" class="px-6 py-3 font-medium">
+                   CreatedAt
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            @for (user of Users; track user.id) {
+            <tr class="odd:bg-neutral-primary even:bg-neutral-secondary-soft border-b border-default">
+                <td class="px-6 py-4">
+                    {{user.id}}
+                </td>
+                <td class="px-6 py-4">
+                    {{user.name}}
+                </td>
+                <td class="px-6 py-4">
+                    {{user.email}}
+                </td>
+                <td class="px-6 py-4">
+                    {{user.createdAt}}
+                </td>
+                
+            </tr>
+        }
+        </tbody>
+    </table>
+</div>
+

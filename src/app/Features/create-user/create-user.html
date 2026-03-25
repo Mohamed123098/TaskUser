@@ -1,0 +1,20 @@
+
+<form  [formGroup]="CreateUserForm"  class="max-w-sm mx-auto" (ngSubmit)="submitForm()">
+  <div class="mb-5">
+    <label for="name" class="block mb-2.5 text-sm font-medium text-heading">Your Name</label>
+    <input type="text" 
+    formControlName="name"
+    id="name" class="bg-neutral-secondary-medium border border-default-medium text-heading text-sm rounded-base focus:ring-brand focus:border-brand block w-full px-3 py-2.5 shadow-xs placeholder:text-body" placeholder="Muhammad" required />
+  </div>
+    <div class="mb-5">
+    <label for="email" class="block mb-2.5 text-sm font-medium text-heading">Your email</label>
+    <input type="email"
+    formControlName="email"
+    id="email" class="bg-neutral-secondary-medium border border-default-medium text-heading text-sm rounded-base focus:ring-brand focus:border-brand block w-full px-3 py-2.5 shadow-xs placeholder:text-body" placeholder="name@flowbite.com" required />
+  </div>
+  <button type="submit" class="text-white bg-brand box-border border border-transparent hover:bg-brand-strong focus:ring-4 focus:ring-brand-medium shadow-xs font-medium leading-5 rounded-base text-sm px-4 py-2.5 focus:outline-none">Create</button>
+  @if(error)
+  {
+    <span class="bg-gray-400 rounded-full p-2 text-center text-red-600 block m-2">{{error}}</span>
+  }
+</form>
