@@ -1,4 +1,4 @@
-# 📌 TaskUser - Angular Task Management App
+# 📌 TaskUser - Angular Users Management App
 
 A modern task management web application built with Angular that allows users to manage their daily tasks efficiently.
 
