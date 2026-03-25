@@ -1,59 +1,103 @@
-# TaskUser
+# 📌 TaskUser - Angular Task Management App
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 20.3.14.
+A modern task management web application built with Angular that allows users to manage their daily tasks efficiently.
 
-## Development server
+---
 
-To start a local development server, run:
+## 🚀 Features
 
-```bash
-ng serve
-```
+- ✅ Add new User  
+- 🗑️ Delete tasks  
+- 📋 Display task list   
+- ⚡ Responsive UI  
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+---
 
-## Code scaffolding
+## 🛠️ Technologies Used
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+- Angular  
+- TypeScript  
+- HTML & tailWindCSS  
+- RxJS   
 
-```bash
-ng generate component component-name
-```
+---
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+## ⚙️ Prerequisites
 
-```bash
-ng generate --help
-```
+Make sure you have installed:
 
-## Building
+- Node.js (v24 or higher)
+- npm
+- Angular CLI
 
-To build the project run:
-
-```bash
-ng build
-```
-
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
+Install Angular CLI:
 
 ```bash
-ng test
+npm install -g @angular/cli
 ```
 
-## Running end-to-end tests
+---
 
-For end-to-end (e2e) testing, run:
+## 📥 Installation
+
+Clone the repository:
 
 ```bash
-ng e2e
+git clone https://github.com/Mohamed123098/TaskUser.git
 ```
 
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
+Navigate to the project:
 
-## Additional Resources
+```bash
+cd TaskUser
+```
 
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+Install dependencies:
+
+```bash
+npm install
+```
+
+---
+
+## ▶️ Run the Application
+
+Start the development server:
+
+```bash
+ng serve --open
+```
+```OR
+ng s
+```
+Open your browser at:
+
+```
+http://localhost:4200/
+```
+
+---
+
+
+## 🤝 Contributing
+
+Contributions are welcome!
+
+1. Fork the repository  
+2. Create a new branch  
+3. Make your changes  
+4. Commit your work  
+5. Push and open a Pull Request  
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License.
+
+---
+
+## 👨‍💻 Author
+
+- Mohamed  
+- GitHub: https://github.com/Mohamed123098
