@@ -7,8 +7,8 @@ A modern task management web application built with Angular that allows users to
 ## 🚀 Features
 
 - ✅ Add new User  
-- 🗑️ Delete tasks  
-- 📋 Display task list   
+- 🗑️ Delete Users 
+- 📋 Display Users list   
 - ⚡ Responsive UI  
 
 ---
