@@ -76,26 +76,6 @@ Open your browser at:
 http://localhost:4200/
 ```
 
----
-
-
-## 🤝 Contributing
-
-Contributions are welcome!
-
-1. Fork the repository  
-2. Create a new branch  
-3. Make your changes  
-4. Commit your work  
-5. Push and open a Pull Request  
-
----
-
-## 📄 License
-
-This project is licensed under the MIT License.
-
----
 
 ## 👨‍💻 Author
 
