@@ -9,15 +9,15 @@ export class User {
   private readonly httpClient = inject(HttpClient);
   CreateUser(user:any):Observable<any>
   {
-    return this.httpClient.post('http://taskofinternship.runasp.net/api/user',user);
+    return this.httpClient.post('https://taskofinternship.runasp.net/api/user',user);
   }
 
   GetAllUsers():Observable<any>
   {
-    return this.httpClient.get('http://taskofinternship.runasp.net/api/user');
+    return this.httpClient.get('https://taskofinternship.runasp.net/api/user');
   }
   DeleteAllUsers():Observable<any>
   {
-    return this.httpClient.get('http://taskofinternship.runasp.net/api/user/Delete')
+    return this.httpClient.get('https://taskofinternship.runasp.net/api/user/Delete')
   }
 }
